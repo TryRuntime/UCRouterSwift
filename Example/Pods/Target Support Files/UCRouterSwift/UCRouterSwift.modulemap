@@ -1,0 +1,6 @@
+framework module UCRouterSwift {
+  umbrella header "UCRouterSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

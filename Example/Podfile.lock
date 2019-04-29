@@ -1,0 +1,16 @@
+PODS:
+  - UCRouterSwift (0.1.0)
+
+DEPENDENCIES:
+  - UCRouterSwift (from `../`)
+
+EXTERNAL SOURCES:
+  UCRouterSwift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  UCRouterSwift: 3d4fe5ffdde2c1fe4d08f9ef2caaad535490f0ff
+
+PODFILE CHECKSUM: 56c5f69b5df6e016c658297f639384e5a8940e31
+
+COCOAPODS: 1.5.3

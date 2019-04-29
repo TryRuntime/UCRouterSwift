@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'UCRouterSwift_Example' do
+  pod 'UCRouterSwift', :path => '../'
+
+  target 'UCRouterSwift_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
