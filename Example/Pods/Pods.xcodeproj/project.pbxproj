@@ -10,13 +10,14 @@
 		021171D3EB24171C461E7844DEC184B7 /* Pods-UCRouterSwift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FB8A2C97C8C10255884E056FC1F0C9F7 /* Pods-UCRouterSwift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0CC0CD6C63B5061E4367330B1F2FC645 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		1C7610AA702924C40CE2BC4430A9895E /* Pods-UCRouterSwift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F0B4527FD44D38E36623032272F1DE /* Pods-UCRouterSwift_Tests-dummy.m */; };
-		3DBD1FD00DF8D8E874CD07F2E7E8BBFB /* UCRouterSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E1D002E9A954318E70B089CE068D73 /* UCRouterSwift-dummy.m */; };
-		4CB0EDE21EF369E158A5442A3A3D33B9 /* UCRouterSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E3D4D2FFCE2F791EF0DB2EA371B51E7F /* UCRouterSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CB0EDE21EF369E158A5442A3A3D33B9 /* UCRouterSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E65F6AB18B58326C1DB6038FD6AB7F5 /* UCRouterSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		722ACF66E9591A18B0D775A1B79435E7 /* UCRouterSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFA3DE69344A258C595762629586797 /* UCRouterSwift-dummy.m */; };
 		8AB1A9E88D4EF4E1AE443454C424EA41 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		9033A346F2507EADFE5E8ED1F7299B14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		96493173BED4E505FFD3594A3E87CE3F /* Pods-UCRouterSwift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 698D3232278D0A357040E779336ADBDA /* Pods-UCRouterSwift_Example-dummy.m */; };
-		9B442E64344FB1FAC3C1B9F0E9547939 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98EFDB19B46A28A616C03518C68B199 /* ReplaceMe.swift */; };
+		974A71BA236DA85A050AAD7E02E8DF65 /* UCRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B59AD90D5F28163079517F26F1E6AE /* UCRouter.swift */; };
 		9B64AD5BAB716D652DE506994FA37328 /* Pods-UCRouterSwift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F25DA6DBF707C5D7D0A52DDC6BFC35FE /* Pods-UCRouterSwift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C008A628E221582FB3901AFB7BB4084F /* UCRouterUrlParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDF5E118A513E99E59BA7DF1F169C2C /* UCRouterUrlParser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,41 +38,42 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		000951AD0A5026D9663657ED5434C165 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0E2BE23F6E480868410817DD723E4698 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		14771F35EF9E34841ED7EF3C8148BEE4 /* UCRouterSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UCRouterSwift.xcconfig; sourceTree = "<group>"; };
-		1A38FDE28D3F81FD5823A3D009615EDD /* UCRouterSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UCRouterSwift.modulemap; sourceTree = "<group>"; };
+		1E65F6AB18B58326C1DB6038FD6AB7F5 /* UCRouterSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UCRouterSwift-umbrella.h"; sourceTree = "<group>"; };
 		1FC376F17244E618FF88A20F6461D332 /* Pods_UCRouterSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UCRouterSwift_Example.framework; path = "Pods-UCRouterSwift_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21B59AD90D5F28163079517F26F1E6AE /* UCRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UCRouter.swift; path = UCRouterSwift/Classes/UCRouter.swift; sourceTree = "<group>"; };
+		30BD018D94F89BEA3A8D8CD9CF30004F /* UCRouterSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UCRouterSwift.modulemap; sourceTree = "<group>"; };
 		31431E98BF71CFE8C6DC93F9514DA16F /* Pods-UCRouterSwift_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UCRouterSwift_Example-resources.sh"; sourceTree = "<group>"; };
 		32DFD9A6ACCC76A9FBDD14929291BF82 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		33E1D002E9A954318E70B089CE068D73 /* UCRouterSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UCRouterSwift-dummy.m"; sourceTree = "<group>"; };
+		3FDF5E118A513E99E59BA7DF1F169C2C /* UCRouterUrlParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UCRouterUrlParser.swift; path = UCRouterSwift/Classes/UCRouterUrlParser.swift; sourceTree = "<group>"; };
 		47F0B4527FD44D38E36623032272F1DE /* Pods-UCRouterSwift_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UCRouterSwift_Tests-dummy.m"; sourceTree = "<group>"; };
-		4CBBC9269BF8C043076BE5B9C8408EF3 /* UCRouterSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = UCRouterSwift.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4FEBC91E53A3378635D4B6A0787E3C20 /* Pods-UCRouterSwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UCRouterSwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		57AFA6360F937EED351338152239F0D8 /* Pods-UCRouterSwift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UCRouterSwift_Example.modulemap"; sourceTree = "<group>"; };
-		58CB913EB12A5DAFB01DE29E4D0DFF0D /* UCRouterSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UCRouterSwift-prefix.pch"; sourceTree = "<group>"; };
-		59D4CB71524ED23DE9F66C50307FBB53 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6880DBFFADE0405B5864023A650390C3 /* Pods-UCRouterSwift_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UCRouterSwift_Tests.modulemap"; sourceTree = "<group>"; };
 		698D3232278D0A357040E779336ADBDA /* Pods-UCRouterSwift_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UCRouterSwift_Example-dummy.m"; sourceTree = "<group>"; };
-		7683D9321994BE5C9D4F961796874B5A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		777F2C006573973CA8B96A3F17E3B68C /* Pods-UCRouterSwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UCRouterSwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		788AA5E6A2704451CC55093C02F3EB30 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CADB3B466B55371C9EA8FE05466B6FD /* Pods-UCRouterSwift_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UCRouterSwift_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		922DAFD87B88973319FFAC097B448C63 /* Pods-UCRouterSwift_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UCRouterSwift_Example-frameworks.sh"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2291F185637889DB5C250CA9AF6DBA9 /* UCRouterSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = UCRouterSwift.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A74FF703E1F931C40FDB5DA218E29FA4 /* Pods-UCRouterSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UCRouterSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		AC4A80876DAC8EA5898409E35602C3C6 /* Pods_UCRouterSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UCRouterSwift_Tests.framework; path = "Pods-UCRouterSwift_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B272317C469F5E5229A82CBDA7507985 /* Pods-UCRouterSwift_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UCRouterSwift_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B7DBA9A4817B1EA3516EADA25FC00A7A /* Pods-UCRouterSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UCRouterSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B9F478D0D13B3005ECAAC8D5275215F5 /* Pods-UCRouterSwift_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UCRouterSwift_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		BB92C283C779372D929CA27B7E364495 /* UCRouterSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UCRouterSwift-prefix.pch"; sourceTree = "<group>"; };
+		BBFA3DE69344A258C595762629586797 /* UCRouterSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UCRouterSwift-dummy.m"; sourceTree = "<group>"; };
+		C3FB41220082CF83389C0AFA3C66F875 /* UCRouterSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UCRouterSwift.xcconfig; sourceTree = "<group>"; };
 		C7AFB1CD3D71281FF7A7618313A04261 /* Pods-UCRouterSwift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UCRouterSwift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		C98EFDB19B46A28A616C03518C68B199 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = UCRouterSwift/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		E3D4D2FFCE2F791EF0DB2EA371B51E7F /* UCRouterSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UCRouterSwift-umbrella.h"; sourceTree = "<group>"; };
 		E7F532F2AEA925E750D88E86226DB9F8 /* Pods-UCRouterSwift_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UCRouterSwift_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		ED524EA582BAC644A6AEB5D053528474 /* UCRouterSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UCRouterSwift.framework; path = UCRouterSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F25DA6DBF707C5D7D0A52DDC6BFC35FE /* Pods-UCRouterSwift_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UCRouterSwift_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F6E9B830EF7CEEC89882633195D8B53D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		FB306BCBAC13905C51D04CEF98C38074 /* Pods-UCRouterSwift_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UCRouterSwift_Tests-resources.sh"; sourceTree = "<group>"; };
 		FB8A2C97C8C10255884E056FC1F0C9F7 /* Pods-UCRouterSwift_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UCRouterSwift_Example-umbrella.h"; sourceTree = "<group>"; };
+		FDE847FDF46B4F59F5AC64CAA86ECB50 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,23 +104,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2D351C7FDFD3515C26D1DFC7567A53C7 /* Development Pods */ = {
+		3C8D8366BD1F50B789C1EFA92ECD09A8 /* UCRouterSwift */ = {
 			isa = PBXGroup;
 			children = (
-				554C29B8CDB3FC6C696D7135E0AFACFC /* UCRouterSwift */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		554C29B8CDB3FC6C696D7135E0AFACFC /* UCRouterSwift */ = {
-			isa = PBXGroup;
-			children = (
-				C98EFDB19B46A28A616C03518C68B199 /* ReplaceMe.swift */,
-				F2B969549584AB82C574A1181B0C435A /* Pod */,
-				D376BE5AE179D79B091DFD3C74158EF1 /* Support Files */,
+				21B59AD90D5F28163079517F26F1E6AE /* UCRouter.swift */,
+				3FDF5E118A513E99E59BA7DF1F169C2C /* UCRouterUrlParser.swift */,
+				58DDEE2436B84B887E1DDD0C9D726943 /* Pod */,
+				8391C4B7F8D575968EAEDF5753CBEBF0 /* Support Files */,
 			);
 			name = UCRouterSwift;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		58DDEE2436B84B887E1DDD0C9D726943 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F6E9B830EF7CEEC89882633195D8B53D /* LICENSE */,
+				FDE847FDF46B4F59F5AC64CAA86ECB50 /* README.md */,
+				A2291F185637889DB5C250CA9AF6DBA9 /* UCRouterSwift.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
@@ -151,11 +156,25 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				2D351C7FDFD3515C26D1DFC7567A53C7 /* Development Pods */,
+				929F2318920315D7B1BABA0A36E31501 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				C7715AABDEC1BAFD911DF7F52459B45B /* Products */,
 				E52FC9AA4D66E4262469653DF21BEE15 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		8391C4B7F8D575968EAEDF5753CBEBF0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				000951AD0A5026D9663657ED5434C165 /* Info.plist */,
+				30BD018D94F89BEA3A8D8CD9CF30004F /* UCRouterSwift.modulemap */,
+				C3FB41220082CF83389C0AFA3C66F875 /* UCRouterSwift.xcconfig */,
+				BBFA3DE69344A258C595762629586797 /* UCRouterSwift-dummy.m */,
+				BB92C283C779372D929CA27B7E364495 /* UCRouterSwift-prefix.pch */,
+				1E65F6AB18B58326C1DB6038FD6AB7F5 /* UCRouterSwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/UCRouterSwift";
 			sourceTree = "<group>";
 		};
 		9230E79EC70DB1F2174F4621BD16EE3E /* Pods-UCRouterSwift_Example */ = {
@@ -176,6 +195,14 @@
 			path = "Target Support Files/Pods-UCRouterSwift_Example";
 			sourceTree = "<group>";
 		};
+		929F2318920315D7B1BABA0A36E31501 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C8D8366BD1F50B789C1EFA92ECD09A8 /* UCRouterSwift */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -194,20 +221,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D376BE5AE179D79B091DFD3C74158EF1 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				788AA5E6A2704451CC55093C02F3EB30 /* Info.plist */,
-				1A38FDE28D3F81FD5823A3D009615EDD /* UCRouterSwift.modulemap */,
-				14771F35EF9E34841ED7EF3C8148BEE4 /* UCRouterSwift.xcconfig */,
-				33E1D002E9A954318E70B089CE068D73 /* UCRouterSwift-dummy.m */,
-				58CB913EB12A5DAFB01DE29E4D0DFF0D /* UCRouterSwift-prefix.pch */,
-				E3D4D2FFCE2F791EF0DB2EA371B51E7F /* UCRouterSwift-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/UCRouterSwift";
-			sourceTree = "<group>";
-		};
 		E52FC9AA4D66E4262469653DF21BEE15 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -215,16 +228,6 @@
 				714ECFC271F00782D32C5CBC7A70FC4C /* Pods-UCRouterSwift_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		F2B969549584AB82C574A1181B0C435A /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				59D4CB71524ED23DE9F66C50307FBB53 /* LICENSE */,
-				7683D9321994BE5C9D4F961796874B5A /* README.md */,
-				4CBBC9269BF8C043076BE5B9C8408EF3 /* UCRouterSwift.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,7 +303,7 @@
 			buildConfigurationList = 16B3665F6840097DED989FE1BB120E41 /* Build configuration list for PBXNativeTarget "UCRouterSwift" */;
 			buildPhases = (
 				232193F9BD6C5AA80104EC4EB8C440B5 /* Headers */,
-				67044468DFC3D694C01F15328F20EB16 /* Sources */,
+				B1EDC3B0D92388FAAD9ACC54B2EDDA51 /* Sources */,
 				3A1C2A2625B2A9C8AF81DC34830BB123 /* Frameworks */,
 				7030BB4990B730F330B4EE57BE632088 /* Resources */,
 			);
@@ -374,20 +377,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		67044468DFC3D694C01F15328F20EB16 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9B442E64344FB1FAC3C1B9F0E9547939 /* ReplaceMe.swift in Sources */,
-				3DBD1FD00DF8D8E874CD07F2E7E8BBFB /* UCRouterSwift-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		67AFB75D56AF800940792443F582D1BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1C7610AA702924C40CE2BC4430A9895E /* Pods-UCRouterSwift_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1EDC3B0D92388FAAD9ACC54B2EDDA51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				974A71BA236DA85A050AAD7E02E8DF65 /* UCRouter.swift in Sources */,
+				722ACF66E9591A18B0D775A1B79435E7 /* UCRouterSwift-dummy.m in Sources */,
+				C008A628E221582FB3901AFB7BB4084F /* UCRouterUrlParser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -672,7 +676,7 @@
 		};
 		EDB7ADFE6457C1E1DCFAAB5F41B8EE4D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 14771F35EF9E34841ED7EF3C8148BEE4 /* UCRouterSwift.xcconfig */;
+			baseConfigurationReference = C3FB41220082CF83389C0AFA3C66F875 /* UCRouterSwift.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -704,7 +708,7 @@
 		};
 		F877A9F080381CD40EB883E1B50AB9A9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 14771F35EF9E34841ED7EF3C8148BEE4 /* UCRouterSwift.xcconfig */;
+			baseConfigurationReference = C3FB41220082CF83389C0AFA3C66F875 /* UCRouterSwift.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

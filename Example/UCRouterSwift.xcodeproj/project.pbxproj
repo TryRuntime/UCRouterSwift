@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3BABFFA1227B03D700174784 /* VC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BABFF9F227B03D700174784 /* VC2.swift */; };
+		3BABFFA2227B03D700174784 /* VC2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BABFFA0227B03D700174784 /* VC2.xib */; };
+		3BABFFA4227B0FC900174784 /* NavgationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BABFFA3227B0FC900174784 /* NavgationDelegate.swift */; };
+		3BABFFA6227B103700174784 /* FilterDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BABFFA5227B103700174784 /* FilterDelegate.swift */; };
+		3BABFFAB227B187700174784 /* ModuleAProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BABFFAA227B187700174784 /* ModuleAProtocol.swift */; };
+		3BABFFAF227B195600174784 /* ModuleA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BABFFAE227B195600174784 /* ModuleA.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -30,8 +36,14 @@
 /* Begin PBXFileReference section */
 		0CA71E5BF6556D7FE9AEE1FB /* Pods-UCRouterSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UCRouterSwift_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UCRouterSwift_Example/Pods-UCRouterSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		22258B14E5B307C8F10A3405 /* Pods-UCRouterSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UCRouterSwift_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-UCRouterSwift_Example/Pods-UCRouterSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
-		22E4926BDA0F7D11E6059B9B /* UCRouterSwift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = UCRouterSwift.podspec; path = ../UCRouterSwift.podspec; sourceTree = "<group>"; };
-		3DF382E7DD43D0F44998C107 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		22E4926BDA0F7D11E6059B9B /* UCRouterSwift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = UCRouterSwift.podspec; path = ../UCRouterSwift.podspec; sourceTree = "<group>"; };
+		3BABFF9F227B03D700174784 /* VC2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC2.swift; sourceTree = "<group>"; };
+		3BABFFA0227B03D700174784 /* VC2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VC2.xib; sourceTree = "<group>"; };
+		3BABFFA3227B0FC900174784 /* NavgationDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavgationDelegate.swift; sourceTree = "<group>"; };
+		3BABFFA5227B103700174784 /* FilterDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterDelegate.swift; sourceTree = "<group>"; };
+		3BABFFAA227B187700174784 /* ModuleAProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleAProtocol.swift; sourceTree = "<group>"; };
+		3BABFFAE227B195600174784 /* ModuleA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleA.swift; sourceTree = "<group>"; };
+		3DF382E7DD43D0F44998C107 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		44CC22BA2773E593A6B590A1 /* Pods_UCRouterSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UCRouterSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		51041D16F71D14539C5DB176 /* Pods_UCRouterSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UCRouterSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* UCRouterSwift_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UCRouterSwift_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,7 +58,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		9E997F72FA8E0409D1E1A84B /* Pods-UCRouterSwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UCRouterSwift_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UCRouterSwift_Tests/Pods-UCRouterSwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9F60398C8C927B6D484852D0 /* Pods-UCRouterSwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UCRouterSwift_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UCRouterSwift_Tests/Pods-UCRouterSwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		FC5ADF781E88A6C047AEF28E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		FC5ADF781E88A6C047AEF28E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +81,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3BABFFA7227B186100174784 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				3BABFFAA227B187700174784 /* ModuleAProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		3BABFFA8227B186100174784 /* ModuleA */ = {
+			isa = PBXGroup;
+			children = (
+				3BABFF9F227B03D700174784 /* VC2.swift */,
+				3BABFFA0227B03D700174784 /* VC2.xib */,
+				3BABFFAE227B195600174784 /* ModuleA.swift */,
+			);
+			path = ModuleA;
+			sourceTree = "<group>";
+		};
 		5442593B3BCA5EA0EB4115F9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -102,8 +132,12 @@
 		607FACD21AFB9204008FA782 /* Example for UCRouterSwift */ = {
 			isa = PBXGroup;
 			children = (
+				3BABFFA8227B186100174784 /* ModuleA */,
+				3BABFFA7227B186100174784 /* Protocol */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				3BABFFA3227B0FC900174784 /* NavgationDelegate.swift */,
+				3BABFFA5227B103700174784 /* FilterDelegate.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -226,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -248,6 +283,7 @@
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				3BABFFA2227B03D700174784 /* VC2.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,8 +370,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BABFFA4227B0FC900174784 /* NavgationDelegate.swift in Sources */,
+				3BABFFA1227B03D700174784 /* VC2.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				3BABFFAB227B187700174784 /* ModuleAProtocol.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				3BABFFA6227B103700174784 /* FilterDelegate.swift in Sources */,
+				3BABFFAF227B195600174784 /* ModuleA.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

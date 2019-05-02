@@ -7,15 +7,29 @@
 //
 
 import UIKit
+import UCRouterSwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let sb = UIStoryboard(name: "Main", bundle: .main)
+        let vc = sb.instantiateViewController(withIdentifier: "vc")
+        
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window!.backgroundColor = .white
+        window!.rootViewController = UINavigationController(rootViewController: vc)
+        window!.makeKeyAndVisible()
+        
+        // 设置导航以及过滤实现
+        UCRouter.default.setNavgationAndFilter(navgation: NavgationDelegate(), filter: FilterDelegate())
+        // 注册
+        UCRouter.default.registProtoclAndModule(UCRouterKey<ModuleAProtocol>(), ModuleA.self)
+        
         return true
     }
 
