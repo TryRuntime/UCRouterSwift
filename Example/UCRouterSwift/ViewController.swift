@@ -18,8 +18,9 @@ class ViewController: UIViewController {
         view.backgroundColor = .white
     }
 
-    @IBAction func normalJump(_ sender: Any) {
-        UCRouter.default.routeUrlStr("demo://haha?haha=111", navgationType: .push(animated: true), params: ["abc": "111"])
+    @IBAction
+    func normalJump(_ sender: Any) {
+        UCRouter.default.routeUrlStr("demo://oral/test?haha=111", navgationType: .push(animated: true), params: ["abc": "111"])
     }
     @IBAction func urlFilter(_ sender: Any) {
         UCRouter.default.routeUrlStr("demo1://oral/test?haha=111", navgationType: .push(animated: true), params: ["abc": "111"])
@@ -31,7 +32,8 @@ class ViewController: UIViewController {
         guard let vc = module?.getModuleAVC() else { return }
         self.navigationController?.pushViewController(vc, animated: true)
     }
-    @IBAction func openWeb(_ sender: Any) {
+    @IBAction
+    func openWeb(_ sender: Any) {
         UCRouter.default.routeUrlStr("demo://web/?url=https://www.baidu.com", navgationType: .push(animated: true), params: ["abc": "111"])
     }
 }
