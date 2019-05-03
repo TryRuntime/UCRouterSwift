@@ -34,5 +34,9 @@ class ModuleA: ModuleAProtocol {
             
             return vc
         }
+        
+        UCRouter.default.registUrl("oral/test") { (routerInfo) -> UIViewController? in
+            return VC2()
+        }
     }
 }
