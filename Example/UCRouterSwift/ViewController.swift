@@ -20,7 +20,7 @@ class ViewController: UIViewController {
 
     @IBAction
     func normalJump(_ sender: Any) {
-        UCRouter.default.routeUrlStr("demo://oral/test?haha=111", navgationType: .push(animated: true), params: ["abc": "111"])
+        UCRouter.default.routeUrlStr("demo://oral/test", navgationType: .push(animated: true), params: ["abc": "111"])
     }
     @IBAction func urlFilter(_ sender: Any) {
         UCRouter.default.routeUrlStr("demo1://oral/test?haha=111", navgationType: .push(animated: true), params: ["abc": "111"])

@@ -17,15 +17,20 @@ class UCRouterUrlParser {
         guard var encodeUrlStr = urlStr.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) else {return nil}
         
         // 拼接url
+        guard var url = URL(string: encodeUrlStr) else {return nil}
         params?.forEach({ (key, value) in
-            encodeUrlStr += ("&" + key + "=" + String(describing: value))
+            if url.query == nil {
+                encodeUrlStr += ("?" + key + "=" + String(describing: value))
+            } else {
+                encodeUrlStr += ("&" + key + "=" + String(describing: value))
+            }
+            guard let tempUrl = URL(string: encodeUrlStr) else {return}
+            url = tempUrl
         })
         
         // 获取注册的urlKey
-        guard let url = URL(string: encodeUrlStr) else {return nil}
         let routerKey = (url.host ?? "") + (url.path.count > 1 ? url.path : "")
 
-        
         // 拼接参数
         var decodeParams = queryParameters(url: url)
         params?.forEach({ (key, value) in
@@ -35,7 +40,7 @@ class UCRouterUrlParser {
         
         guard let registRouterInfo = UCRouter.routerUrlDict[routerKey] else {return nil}
         registRouterInfo.clearUrlParseInfo()
-        registRouterInfo.setUrlDecodeInfo(scheme: url.scheme, host: url.host, path: url.path, query: decodeParams, decodeUrlStr: decodeUrlStr)
+        registRouterInfo.setUrlDecodeInfo(scheme: url.scheme, host: url.host, path: url.path, query: decodeParams, decodeUrlStr: decodeUrlStr, encodeUrlStr: encodeUrlStr)
         return registRouterInfo
     }
     
@@ -59,6 +64,7 @@ public class UCRouterUrlInfo {
     public private(set) var urlPath: String?
     public private(set) var urlQuery: [String: String]?
     public private(set) var decodeUrlStr: String?
+    public private(set) var encodeUrlStr: String?
     
     public init(registUrl: String, closure: @escaping (UCRouterUrlInfo) -> UIViewController?) {
         self.registUrl = registUrl
@@ -73,11 +79,12 @@ public class UCRouterUrlInfo {
         decodeUrlStr = nil
     }
     
-    func setUrlDecodeInfo(scheme: String?, host: String?, path: String?, query: [String: String]?, decodeUrlStr: String?) {
+    func setUrlDecodeInfo(scheme: String?, host: String?, path: String?, query: [String: String]?, decodeUrlStr: String?, encodeUrlStr: String?) {
         urlScheme = scheme
         urlHost = host
         urlPath = path
         urlQuery = query
         self.decodeUrlStr = decodeUrlStr
+        self.encodeUrlStr = encodeUrlStr
     }
 }
